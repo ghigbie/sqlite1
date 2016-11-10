@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/res/merged/debug/layout/row_layout.xml",
+        "source": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/layout/row_layout.xml"
+    },
+    {
+        "merged": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/layout/activity_main.xml"
+    }
+]

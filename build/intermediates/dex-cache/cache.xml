@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/geogehigbie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_2981bf6dcf2e080ade924052002639d1e4eaebc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f02df3c1f554f583be02866d40b6c44b9117ac0a">
+        <dex dex="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a39e2cca1fa2e9c4cf08bdeade1ceec8580cbf33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d2f15f3d68d5aac6e71625a179c7ea2abc71ddec">
+        <dex dex="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_536f834117de632ae251bc0fb7df717cdf287665/classes.dex" />
+    </item>
+
+</items>
