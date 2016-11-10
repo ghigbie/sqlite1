@@ -11,7 +11,14 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/dimens.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/dimens.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 52,
+                        "endOffset": 155
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 268
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 50,
+                        "endOffset": 102
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 308
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 39,
+                        "endOffset": 290
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 351
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 42,
+                        "endOffset": 333
+                    }
                 }
             },
             {
@@ -102,7 +144,14 @@
                     "endOffset": 446
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 52,
+                        "endOffset": 208
+                    }
                 }
             },
             {
@@ -114,7 +163,14 @@
                     "endOffset": 488
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 213,
+                        "endColumn": 41,
+                        "endOffset": 250
+                    }
                 }
             },
             {
@@ -122,25 +178,41 @@
                     "startLine": 11,
                     "startColumn": 4,
                     "startOffset": 493,
-                    "endLine": 13,
+                    "endLine": 17,
                     "endColumn": 12,
-                    "endOffset": 571
+                    "endOffset": 779
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/styles.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 576,
-                    "endLine": 16,
+                    "startOffset": 784,
+                    "endLine": 20,
                     "endColumn": 12,
-                    "endOffset": 643
+                    "endOffset": 939
                 },
                 "from": {
-                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/styles.xml"
+                    "file": "/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
                 }
             }
         ]

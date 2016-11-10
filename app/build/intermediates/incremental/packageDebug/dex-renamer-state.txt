@@ -1,4 +1,4 @@
-#Tue Nov 08 13:33:56 EST 2016
+#Thu Nov 10 16:18:32 EST 2016
 base.0=/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a39e2cca1fa2e9c4cf08bdeade1ceec8580cbf33
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="f02df3c1f554f583be02866d40b6c44b9117ac0a">
+        sha1="0c01238f9e5be2af158bd2ed0a9f29e8cc3e16e0">
         <dex dex="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a39e2cca1fa2e9c4cf08bdeade1ceec8580cbf33/classes.dex" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="d2f15f3d68d5aac6e71625a179c7ea2abc71ddec">
+        sha1="7e215243e3197769d674c04ea9bd44491c04b078">
         <dex dex="/Users/geogehigbie/Documents/Android TTT projects/SQLiteSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_536f834117de632ae251bc0fb7df717cdf287665/classes.dex" />
     </item>
 

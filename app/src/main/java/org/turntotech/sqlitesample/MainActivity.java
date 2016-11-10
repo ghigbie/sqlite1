@@ -26,24 +26,28 @@ public class MainActivity extends Activity {
 
 	private EditText fieldName;
 
+	private ArrayList<String> namesArrayList;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-        Log.i("TurnToTech", "Project Name - SQLiteSample");
+		Log.i("TurnToTech", "Project Name - SQLiteSample");
 
 		fieldName = (EditText) findViewById(R.id.editText);
 
 		ListView listView = (ListView) findViewById(R.id.listView);
 		registerForContextMenu(listView);
 
-		db = openOrCreateDatabase("androidsqlite.db", Context.MODE_PRIVATE, null);
+		db = openOrCreateDatabase("androidsqlite.db", Context.MODE_PRIVATE,
+				null);
 		db.execSQL("CREATE TABLE IF NOT EXISTS Student ( stud_id INTEGER PRIMARY KEY, stud_name TEXT)");
 
+		data = new ArrayList<HashMap<String, String>>();
 		adapter = new SimpleAdapter(this, data, R.layout.row_layout,
 				new String[] { "stud_id", "stud_name" }, new int[] {
-						R.id.stud_id, R.id.stud_name });
+				R.id.stud_id, R.id.stud_name });
 		listView.setAdapter(adapter);
 
 		populateList();
@@ -65,7 +69,7 @@ public class MainActivity extends Activity {
 
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
-			ContextMenuInfo menuInfo) {
+									ContextMenuInfo menuInfo) {
 		AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
 		menu.add("Delete " + data.get(info.position).get("stud_name"));
 	}
@@ -95,8 +99,37 @@ public class MainActivity extends Activity {
 	}
 
 	public void onClickSort(View view){
+		Cursor cursor = db.rawQuery("SELECT stud_id, stud_name FROM Student order by stud_name", null);
 
-		//Collections.sort(data);
+//		namesArrayList = new ArrayList<String>();
+//
+//		while(cursor.moveToNext()){
+//			namesArrayList.add(cursor.getString(0));
+//		}
+//
+//		Collections.sort(namesArrayList);
+//
+//		ListView listView = (ListView) findViewById(R.id.listView);
+//
+//		//need to set list adapter
+//
+//		ArrayAdapter arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.activity_main, namesArrayList);
+//
+//		listView.setAdapter(arrayAdapter);
+
+		data.clear();
+		while (cursor.moveToNext()) {
+			HashMap<String, String> map = new HashMap<String, String>();
+			map.put("stud_id", cursor.getString(0));
+			map.put("stud_name", cursor.getString(1));
+			data.add(map);
+		}
+		cursor.close();
+		adapter.notifyDataSetChanged();
+
+
+
 	}
 
 }
+
